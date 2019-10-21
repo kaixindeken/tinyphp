@@ -1,6 +1,8 @@
 # README
 
-## 数据库准备
+## 简单的PHP MVC框架
+
+### 数据库准备
 
 ```mysql
 create database yourtablename;
@@ -10,7 +12,7 @@ create table users (id int not null primary key auto_increment, name varchar(100
 
 
 
-## 创建并编辑`app/conf/db.php`
+### 创建并编辑`app/conf/db.php`
 
 ```php
 <?php
