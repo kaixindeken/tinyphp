@@ -1,8 +1,6 @@
-# README
+# Simple PHP MVC Frame
 
-## 简单的PHP MVC框架
-
-### 数据库准备
+### db config (Only Support Mysql)
 
 ```mysql
 create database yourtablename;
@@ -12,7 +10,7 @@ create table users (id int not null primary key auto_increment, name varchar(100
 
 
 
-### 创建并编辑`app/conf/db.php`
+### create and edit `app/conf/db.php`
 
 ```php
 <?php
